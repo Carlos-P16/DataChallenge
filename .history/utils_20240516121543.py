@@ -71,8 +71,6 @@ def clean_text(texto):
     # Eliminar stop words
     palabras = texto.split()
     palabras_filtradas = [palabra for palabra in palabras if palabra not in stopwords]
-
-    
     
     # Unir palabras nuevamente
     texto_limpio = ' '.join(palabras_filtradas)
